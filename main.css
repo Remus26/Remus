@@ -1,0 +1,32 @@
+/* #my-id | .class-name | tag(div) */
+
+
+
+.twit > p {
+    color: blue;
+}
+
+.post ~ p {
+    color: blueviolet;
+}
+
+.post + p {
+    color: brown;
+}
+div p {
+    color: aqua;
+}
+
+span {
+    display: inline;
+    width: 100px;
+    background-color: aqua;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 30p 5px 0px;
+    margin: 10px 10px 10px;
+    margin: 10px 10px;
+    margin: 10px;
+}
