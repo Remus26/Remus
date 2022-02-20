@@ -1,0 +1,23 @@
+:root {
+    --primary: red;
+    --border-width: 9px;
+    --primary-font-size: 18px;
+}
+
+.text {
+    color: var(--primary);
+    border: var(--border-width) solid;
+    font-size: var(--primary-font-size);
+}
+
+.text span {
+    font-size: .5em;
+} 
+
+.post {
+    width: 350px;
+    margin: 30px auto;
+    padding: 10px;
+    background: rgba(234, 241, 239, 0.671);
+}
+
